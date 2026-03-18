@@ -1,0 +1,650 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+::selection {
+  background-color: #000000;
+  color: rgb(11, 191, 204);
+}
+.dark {
+  background-color: #000000;
+  color: white;
+}
+/* section1 */
+.s1 {
+  width: 100%;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  color: rgb(0, 191, 255);
+  border: none;
+  background-color: aliceblue;
+}
+.logo {
+  font-weight: bold;
+  color: #0bbcd6;
+  font-size: 20px;
+  position: relative;
+  right: 20rem;
+}
+.s1-A {
+  text-align: center;
+}
+.s1-A a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #666;
+  font-size: 16px;
+}
+.s1-A a:hover {
+  color: rgb(50, 50, 50);
+}
+.s1-btnA {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  position: relative;
+  left: 20rem;
+}
+.s1-btn {
+  background-color: rgb(0, 247, 255);
+  color: #010101;
+  border-radius: 10px;
+  padding: 10px 17px;
+  position: relative;
+  left: 12rem;
+  border: none;
+  text-decoration: none;
+}
+.s1-btn:hover {
+  background-color: rgb(0, 235, 245);
+}
+
+.btn1 {
+  background-color: rgb(0, 247, 255);
+  border-radius: 10px;
+  padding: 10px 17px;
+  border: none;
+  text-decoration: none;
+}
+.btn1:hover {
+  background-color: rgb(0, 235, 245);
+}
+/* section2 */
+.s2 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 4rem;
+}
+.s2-img {
+  height: 89vh;
+  width: 95%;
+  background-image: url(../media/SALONES\ DE\ DISEÑO\ A\ MEDIDA.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+  border-radius: 14px;
+  animation: pic 20s ease-in-out infinite;
+}
+
+.s2-contant {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 2rem;
+  position: relative;
+  top: 6rem;
+}
+.s2-contant p {
+  font-size: 14px;
+  color: whitesmoke;
+  position: relative;
+  top: 1rem;
+}
+/* section3 */
+.s3 {
+  height: 35vh;
+  width: 100%;
+}
+.s3-boxs {
+  height: 38vh;
+  width: 85%;
+  background-color: rgb(242, 254, 255);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: absolute;
+  left: 6rem;
+  top: 30rem;
+}
+
+.s3-contant1 {
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+}
+.s3-contant1 a {
+  margin: 0 15px;
+}
+.h3 {
+  position: relative;
+  left: 37rem;
+}
+.s3-contant2 {
+  position: relative;
+  top: 4rem;
+  left: 3rem;
+}
+.s3-contant2 a {
+  color: #333;
+  margin: 0 35px;
+}
+.s3-contant3 {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  top: 6rem;
+  left: 4rem;
+}
+.c3-box {
+  height: 3rem;
+  width: 9rem;
+  background-color: rgb(237, 245, 252);
+  border-radius: 15px;
+}
+.c3-box i {
+  color: #0bbcd6;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+.s3-box {
+  height: 3rem;
+  width: 14rem;
+  background-color: rgb(0, 247, 255);
+  border-radius: 15px;
+  margin-left: 20px;
+  transition: all 3s ease-in-out;
+}
+.s3-box:hover {
+  background-color: rgb(72, 111, 112);
+}
+.s3-box i {
+  margin-top: 16px;
+  margin-left: 4rem;
+}
+/* section4 */
+.s4 {
+  height: 14vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+.s4-box {
+  height: 13vh;
+  width: 48%;
+  position: relative;
+  left: 2rem;
+}
+.s4-box1 h1 {
+  font-weight: bolder;
+  position: relative;
+  left: 4rem;
+}
+.s4-box1 p {
+  color: #333;
+  position: relative;
+  left: 4rem;
+}
+
+/* section5 */
+.s5 {
+  height: 70vh;
+  width: 100%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.s5-box {
+  height: 270px;
+  width: 240px;
+  background-color: aliceblue;
+  box-shadow: rgba(120, 120, 115, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  position: relative;
+  left: 2rem;
+}
+.s5-img1 {
+  height: 200px;
+  width: 200px;
+  background-image: url(../media/Parisss❤️❤️🇫🇷🇫🇷.jfif);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  transition: all 3s ease-in-out;
+}
+.s5-img1:hover {
+  height: 200px;
+  width: 200px;
+  background-image: url(../media/download.gg.jfif);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.s5-box i {
+  color: #0bbcd6;
+  position: relative;
+  top: -10px;
+  margin-left: 50px;
+}
+.s5-box a {
+  position: relative;
+  top: -10px;
+}
+.s5-box h4 {
+  margin-left: 70px;
+}
+
+.s5-img2 {
+  height: 200px;
+  width: 200px;
+  background-image: url(../media/Enchanting\ Disney\ Castles\ Around\ the\ World_\ A\ Brief\ Guide.jfif);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  transition: all 3s ease-in-out;
+}
+.s5-img2:hover {
+  height: 200px;
+  width: 200px;
+  background-image: url(../media/Walt\ and\ Mickey\'s\ statue\ before\ the\ Cinderella\ Castle\ in\ Disney\ World.jfif);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.s5-img3 {
+  height: 200px;
+  width: 200px;
+  background-image: url(../media/Burj\ Khalifa\ -\ Dubai\,\ UAE.jfif);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  transition: all 3s ease-in-out;
+}
+.s5-img3:hover {
+  height: 200px;
+  width: 200px;
+  background-image: url(../media/download.aaa.jfif);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.s5-img4 {
+  height: 200px;
+  width: 200px;
+  background-image: url(../media/London\ Eye\ in\ London\ England\ -\ Entouriste.jfif);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all 3s ease-in-out;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.s5-img4:hover {
+  height: 200px;
+  width: 200px;
+  background-image: url(../media/A\ cinematic\ shot\ of\ London\'s\ Tower\ Bridge\ during\ the\ golden\ hour_\ The\ bridge\ is\ illuminated\ by\ the\ w.jfif);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* section6 */
+.s6 {
+  padding: 60px;
+  background: #fff;
+}
+
+.s6 h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 40px;
+}
+.content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.text-box {
+  width: 50%;
+}
+.item {
+  margin-bottom: 25px;
+}
+.number {
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.blue {
+  background: #4da6ff;
+}
+.purple {
+  background: #7f7fff;
+}
+.green {
+  background: #4caf50;
+}
+.item h3 {
+  margin: 10px 0;
+}
+.item p {
+  color: #666;
+  font-size: 14px;
+}
+.btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  background: #2ee0f0;
+  color: white;
+  border-radius: 6px;
+}
+.btn:hover {
+  background: #2bb3c0;
+}
+.image-box {
+  width: 50%;
+  box-shadow: rgba(120, 120, 115, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+.image-box img {
+  width: 100%;
+  border-radius: 20px;
+}
+/* section7 */
+.s7 {
+  height: 30vh;
+  width: 100%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.s7-text {
+  height: 20vh;
+  width: 70%;
+
+  position: relative;
+  top: 2rem;
+}
+.s7-text h1 {
+  position: relative;
+  left: 2rem;
+  top: 1rem;
+}
+.s7-text p {
+  position: relative;
+  left: 2rem;
+  top: 1rem;
+}
+
+.top-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  flex-wrap: wrap;
+}
+.top-buttons button {
+  padding: 10px 18px;
+  border-radius: 25px;
+  border: none;
+  background: #eef2f7;
+  color: #333;
+  font-size: 14px;
+}
+.top-buttons button:hover {
+  background: #010101;
+  color: white;
+}
+.container {
+  width: 90%;
+  margin-left: 3rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.card {
+  background: #fff;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 5rem;
+}
+.card-content {
+  padding: 15px;
+}
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.card-content p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+.price {
+  font-weight: bold;
+  color: #4caf50;
+  font-size: 15px;
+}
+.plus,
+.minus {
+  border-radius: 50%;
+  background-color: #01010100;
+  padding: 3px 8px;
+  font-size: medium;
+  position: relative;
+  left: 8rem;
+}
+
+.count {
+  padding: 3px 7px;
+  background-color: #949494fa;
+  position: relative;
+  left: 8rem;
+}
+.reset {
+  padding: 3px 6px;
+  background-color: #e6e6e64b;
+  position: relative;
+  left: 8rem;
+}
+/* section8 */
+.s8 {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+.s8-head {
+  text-align: center;
+  position: relative;
+  top: 8rem;
+}
+.s8-head h1 {
+  color: #010101;
+  font-size: 3rem;
+}
+.s8-head p {
+  color: #666;
+  font-weight: 10px;
+}
+.s8-boxes {
+  height: 50vh;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  gap: 5rem;
+  position: relative;
+  top: 9rem;
+}
+.s8-box {
+  height: 250px;
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: rgba(120, 120, 115, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  top: 1rem;
+
+  transition: all ease-in-out;
+}
+.s8-box:hover {
+  transform: translateY(-10px);
+}
+.s8-box img {
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+}
+.s8-box p {
+  text-align: center;
+  position: relative;
+  top: 1rem;
+}
+/* section9 */
+.s9 {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+.s9 span {
+  font-size: 25px;
+  font-weight: bolder;
+  position: relative;
+  left: 4rem;
+}
+.s9-btn {
+  background-color: rgb(0, 247, 255);
+  border-radius: 10px;
+  padding: 9px 17px;
+  text-decoration: none;
+  position: relative;
+  left: 68%;
+}
+.s9-btn:hover {
+  background-color: rgb(0, 235, 245);
+}
+.video video {
+  border-radius: 20px;
+  position: relative;
+  top: 2rem;
+  left: 15rem;
+}
+/* sectiom10 */
+
+.s10 {
+  background-color: #f6f6f6;
+  padding: 40px 20px;
+  position: relative;
+  top: rem;
+}
+
+.s10-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.s10-box {
+  width: 180px;
+}
+.s10-box h2 {
+  margin-bottom: 10px;
+  color: #303030;
+}
+
+.s10-box p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.social {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.social span {
+  background: #ddd;
+  padding: 6px;
+  font-size: 12px;
+}
+
+.s10-btn {
+  display: flex;
+  margin-top: 10px;
+}
+
+.s10-btn input {
+  padding: 6px;
+  border-radius: 10px;
+  width: 120px;
+}
+
+.s10-btn a {
+  padding: 6px 10px;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  background: #00aaff;
+  color: white;
+}
+
+/* responsive */
